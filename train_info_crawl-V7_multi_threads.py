@@ -511,10 +511,6 @@ if __name__=='__main__':
         #     # print(df_travel_time.head())
         print("已完成最短旅行时间提取！")
 
-        '''第六步，可视化'''
-        c = geo_map()
-        # c.render()
-        print("已绘制好地图！")
     print('great!')
     time_end = time.time()
     print('结束时间:%s,共用时:%s' % (time_end, (time_end - time_start)))
